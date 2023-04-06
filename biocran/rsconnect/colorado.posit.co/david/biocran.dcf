@@ -1,0 +1,13 @@
+name: biocran
+title: biocran
+username: david
+account: david
+server: colorado.posit.co
+hostUrl: https://colorado.posit.co/rsc/__api__
+appId: 15926
+bundleId: 72428
+url: https://colorado.posit.co/rsc/content/9fb29864-95fc-435c-a3c8-511f07809cb1/
+when: 1680823490.28863
+lastSyncTime: 1680823490.28864
+asMultiple: FALSE
+asStatic: FALSE
