@@ -11,8 +11,8 @@
   },
   "packages": {
     "BiocGenerics": {
-      "Source": "BioCsoft",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc",
+      "Source": "biocran",
+      "Repository": "https://colorado.posit.co/rspm/biocran-3.16/__linux__/bionic/latest",
       "description": {
         "Package": "BiocGenerics",
         "Title": "S4 generic functions used in Bioconductor",
@@ -47,8 +47,8 @@
         "Package": "DT",
         "Type": "Package",
         "Title": "A Wrapper of the JavaScript Library 'DataTables'",
-        "Version": "0.25",
-        "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", email = \"xie@yihui.name\", role = c(\"aut\", \"cre\")),\n    person(\"Joe\", \"Cheng\", role = \"aut\"),\n    person(\"Xianying\", \"Tan\", role = \"aut\"),\n    person(\"JJ\", \"Allaire\", role = \"ctb\"),\n    person(\"Maximilian\", \"Girlich\", role = \"ctb\"),\n    person(\"Greg\", \"Freedman Ellis\", role = \"ctb\"),\n    person(\"Johannes\", \"Rauh\", role = \"ctb\"),\n    person(\"SpryMedia Limited\", role = c(\"ctb\", \"cph\"), comment = \"DataTables in htmlwidgets/lib\"),\n    person(\"Brian\", \"Reavis\", role = c(\"ctb\", \"cph\"), comment = \"selectize.js in htmlwidgets/lib\"),\n    person(\"Leon\", \"Gersen\", role = c(\"ctb\", \"cph\"), comment = \"noUiSlider in htmlwidgets/lib\"),\n    person(\"Bartek\", \"Szopka\", role = c(\"ctb\", \"cph\"), comment = \"jquery.highlight.js in htmlwidgets/lib\"),\n    person(\"Alex\", \"Pickering\", role = c(\"ctb\")),\n    person(\"William\", \"Holmes\", role = c(\"ctb\")),\n    person(\"Mikko\", \"Marttila\", role = c(\"ctb\")),\n    person(\"Andres\", \"Quintero\", role = c(\"ctb\")),\n    person(\"RStudio, PBC\", role = \"cph\")\n    )",
+        "Version": "0.26",
+        "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", email = \"xie@yihui.name\", role = c(\"aut\", \"cre\")),\n    person(\"Joe\", \"Cheng\", role = \"aut\"),\n    person(\"Xianying\", \"Tan\", role = \"aut\"),\n    person(\"JJ\", \"Allaire\", role = \"ctb\"),\n    person(\"Maximilian\", \"Girlich\", role = \"ctb\"),\n    person(\"Greg\", \"Freedman Ellis\", role = \"ctb\"),\n    person(\"Johannes\", \"Rauh\", role = \"ctb\"),\n    person(\"SpryMedia Limited\", role = c(\"ctb\", \"cph\"), comment = \"DataTables in htmlwidgets/lib\"),\n    person(\"Brian\", \"Reavis\", role = c(\"ctb\", \"cph\"), comment = \"selectize.js in htmlwidgets/lib\"),\n    person(\"Leon\", \"Gersen\", role = c(\"ctb\", \"cph\"), comment = \"noUiSlider in htmlwidgets/lib\"),\n    person(\"Bartek\", \"Szopka\", role = c(\"ctb\", \"cph\"), comment = \"jquery.highlight.js in htmlwidgets/lib\"),\n    person(\"Alex\", \"Pickering\", role = c(\"ctb\")),\n    person(\"William\", \"Holmes\", role = c(\"ctb\")),\n    person(\"Mikko\", \"Marttila\", role = c(\"ctb\")),\n    person(\"Andres\", \"Quintero\", role = c(\"ctb\")),\n    person(\"Stéphane\", \"Laurent\", role = c(\"ctb\")),\n    person(\"RStudio, PBC\", role = \"cph\")\n    )",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Description": "Data objects in R can be rendered as HTML tables using the\n    JavaScript library 'DataTables' (typically via R Markdown or Shiny). The\n    'DataTables' library has been included in this R package. The package name\n    'DT' is an abbreviation of 'DataTables'.",
         "URL": "https://github.com/rstudio/DT",
@@ -60,16 +60,16 @@
         "RoxygenNote": "7.2.1",
         "Encoding": "UTF-8",
         "NeedsCompilation": "no",
-        "Packaged": "2022-09-12 21:55:21 UTC; yihui",
-        "Author": "Yihui Xie [aut, cre],\n  Joe Cheng [aut],\n  Xianying Tan [aut],\n  JJ Allaire [ctb],\n  Maximilian Girlich [ctb],\n  Greg Freedman Ellis [ctb],\n  Johannes Rauh [ctb],\n  SpryMedia Limited [ctb, cph] (DataTables in htmlwidgets/lib),\n  Brian Reavis [ctb, cph] (selectize.js in htmlwidgets/lib),\n  Leon Gersen [ctb, cph] (noUiSlider in htmlwidgets/lib),\n  Bartek Szopka [ctb, cph] (jquery.highlight.js in htmlwidgets/lib),\n  Alex Pickering [ctb],\n  William Holmes [ctb],\n  Mikko Marttila [ctb],\n  Andres Quintero [ctb],\n  RStudio, PBC [cph]",
+        "Packaged": "2022-10-18 23:11:25 UTC; yihui",
+        "Author": "Yihui Xie [aut, cre],\n  Joe Cheng [aut],\n  Xianying Tan [aut],\n  JJ Allaire [ctb],\n  Maximilian Girlich [ctb],\n  Greg Freedman Ellis [ctb],\n  Johannes Rauh [ctb],\n  SpryMedia Limited [ctb, cph] (DataTables in htmlwidgets/lib),\n  Brian Reavis [ctb, cph] (selectize.js in htmlwidgets/lib),\n  Leon Gersen [ctb, cph] (noUiSlider in htmlwidgets/lib),\n  Bartek Szopka [ctb, cph] (jquery.highlight.js in htmlwidgets/lib),\n  Alex Pickering [ctb],\n  William Holmes [ctb],\n  Mikko Marttila [ctb],\n  Andres Quintero [ctb],\n  Stéphane Laurent [ctb],\n  RStudio, PBC [cph]",
         "Repository": "RSPM",
-        "Date/Publication": "2022-09-12 22:40:02 UTC",
-        "Built": "R 4.2.0; ; 2022-09-13 10:56:10 UTC; unix"
+        "Date/Publication": "2022-10-19 00:17:54 UTC",
+        "Built": "R 4.2.0; ; 2022-10-20 12:50:54 UTC; unix"
       }
     },
     "DelayedArray": {
-      "Source": "BioCsoft",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc",
+      "Source": "biocran",
+      "Repository": "https://colorado.posit.co/rspm/biocran-3.16/__linux__/bionic/latest",
       "description": {
         "Package": "DelayedArray",
         "Title": "A unified framework for working transparently with on-disk and\nin-memory array-like datasets",
@@ -96,12 +96,12 @@
         "NeedsCompilation": "yes",
         "Packaged": "2022-11-01 21:20:09 UTC; biocbuild",
         "Repository": "RSPM",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-02-16 03:23:49 UTC; unix"
+        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-04-07 14:02:06 UTC; unix"
       }
     },
     "IRanges": {
-      "Source": "BioCsoft",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc",
+      "Source": "biocran",
+      "Repository": "https://colorado.posit.co/rspm/biocran-3.16/__linux__/bionic/latest",
       "description": {
         "Package": "IRanges",
         "Title": "Foundation of integer range manipulation in Bioconductor",
@@ -165,8 +165,8 @@
       }
     },
     "MatrixGenerics": {
-      "Source": "BioCsoft",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc",
+      "Source": "biocran",
+      "Repository": "https://colorado.posit.co/rspm/biocran-3.16/__linux__/bionic/latest",
       "description": {
         "Package": "MatrixGenerics",
         "Title": "S4 Generic Summary Statistic Functions that Operate on\nMatrix-Like Objects",
@@ -250,7 +250,7 @@
     },
     "S4Vectors": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc",
+      "Repository": "https://colorado.posit.co/rspm/biocran-3.16/__linux__/bionic/latest",
       "description": {
         "Package": "S4Vectors",
         "Title": "Foundation of vector-like and list-like containers in\nBioconductor",
@@ -305,15 +305,15 @@
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
-        "Version": "0.4.0",
+        "Version": "0.4.1",
         "Authors@R": "c(\n    person(\"Carson\", \"Sievert\", role = c(\"aut\", \"cre\"), email = \"carson@rstudio.com\", comment = c(ORCID = \"0000-0002-4958-2844\")),\n    person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(family = \"Bootstrap contributors\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(family = \"Twitter, Inc\", role = \"cph\",\n    comment = \"Bootstrap library\"),\n    person(\"Javi\", \"Aguilar\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootstrap colorpicker library\"),\n    person(\"Thomas\", \"Park\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootswatch library\"),\n    person(family = \"PayPal\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootstrap accessibility plugin\")\n    )",
         "Description": "Simplifies custom 'CSS' styling of both 'shiny' and 'rmarkdown' via 'Bootstrap' 'Sass'. Supports both 'Bootstrap' 3 and 4 as well as their various 'Bootswatch' themes. An interactive widget is also provided for previewing themes in real time.",
         "Depends": "R (>= 2.10)",
-        "Imports": "grDevices, htmltools (>= 0.5.2), jsonlite, sass (>= 0.4.0),\njquerylib (>= 0.1.3), rlang, cachem, memoise",
+        "Imports": "grDevices, htmltools (>= 0.5.2), jsonlite, sass (>= 0.4.0),\njquerylib (>= 0.1.3), rlang, cachem, memoise (>= 2.0.1)",
         "Suggests": "shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,\ntestthat, withr, rappdirs, curl, magrittr",
         "License": "MIT + file LICENSE",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.2.0",
+        "RoxygenNote": "7.2.1",
         "Collate": "'bootswatch.R' 'bs-current-theme.R' 'bs-dependencies.R'\n'bs-global.R' 'bs-remove.R' 'bs-theme-layers.R' 'utils.R'\n'bs-theme-preview.R' 'bs-theme-update.R' 'bs-theme.R'\n'deprecated.R' 'files.R' 'imports.R' 'nav-items.R'\n'nav-update.R' 'navs-legacy.R' 'navs.R' 'onLoad.R' 'page.R'\n'precompiled.R' 'print.R' 'shiny-devmode.R' 'staticimports.R'\n'utils-shiny.R' 'utils-tags.R' 'version-default.R' 'versions.R'",
         "URL": "https://rstudio.github.io/bslib/, https://github.com/rstudio/bslib",
         "BugReports": "https://github.com/rstudio/bslib/issues",
@@ -322,12 +322,12 @@
         "Config/Needs/website": "brio, dplyr, DT, glue, purrr, rprojroot,\nrstudio/quillt, stringr, tidyr",
         "Config/Needs/deploy": "BH, DT, ggplot2, hexbin, lattice, reactable,\nrprojroot, rsconnect",
         "NeedsCompilation": "no",
-        "Packaged": "2022-07-16 14:17:56 UTC; cpsievert",
+        "Packaged": "2022-11-02 20:21:31 UTC; cpsievert",
         "Author": "Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Joe Cheng [aut],\n  RStudio [cph],\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Javi Aguilar [ctb, cph] (Bootstrap colorpicker library),\n  Thomas Park [ctb, cph] (Bootswatch library),\n  PayPal [ctb, cph] (Bootstrap accessibility plugin)",
         "Maintainer": "Carson Sievert <carson@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2022-07-16 16:20:03 UTC",
-        "Built": "R 4.2.0; ; 2022-07-18 10:57:00 UTC; unix"
+        "Date/Publication": "2022-11-02 21:10:10 UTC",
+        "Built": "R 4.2.0; ; 2022-11-03 10:58:09 UTC; unix"
       }
     },
     "cachem": {
@@ -355,6 +355,34 @@
         "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-04-22 20:24:34 UTC; unix"
       }
     },
+    "cli": {
+      "Source": "biocran",
+      "Repository": "https://colorado.posit.co/rspm/biocran-3.16/__linux__/bionic/latest",
+      "description": {
+        "Package": "cli",
+        "Title": "Helpers for Developing Command Line Interfaces",
+        "Version": "3.4.1",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Kirill\", \"Müller\", role = \"ctb\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "A suite of tools to build attractive command line interfaces\n    ('CLIs'), from semantic elements: headings, lists, alerts, paragraphs,\n    etc. Supports custom themes via a 'CSS'-like language. It also\n    contains a number of lower level 'CLI' elements: rules, boxes, trees,\n    and 'Unicode' symbols with 'ASCII' alternatives. It support ANSI\n    colors and text styles as well.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://cli.r-lib.org, https://github.com/r-lib/cli#readme",
+        "BugReports": "https://github.com/r-lib/cli/issues",
+        "Depends": "R (>= 3.4)",
+        "Imports": "utils",
+        "Suggests": "callr, covr, digest, glue (>= 1.6.0), grDevices, htmltools,\nhtmlwidgets, knitr, methods, mockery, processx, ps (>=\n1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,\nrstudioapi, testthat, tibble, whoami, withr",
+        "Config/Needs/website": "r-lib/asciicast, bench, brio, cpp11, decor, desc,\nfansi, sessioninfo, tidyverse/tidytemplate, usethis, vctrs",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.1.9000",
+        "NeedsCompilation": "yes",
+        "Packaged": "2022-09-22 18:05:14 UTC; gaborcsardi",
+        "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  RStudio [cph, fnd]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Repository": "RSPM",
+        "Date/Publication": "2022-09-23 11:20:05 UTC",
+        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-09-26 11:11:12 UTC; unix"
+      }
+    },
     "commonmark": {
       "Source": "biocran",
       "Repository": "https://colorado.posit.co/rspm/biocran-3.16/__linux__/bionic/latest",
@@ -362,7 +390,7 @@
         "Package": "commonmark",
         "Type": "Package",
         "Title": "High Performance CommonMark and Github Markdown Rendering in R",
-        "Version": "1.8.0",
+        "Version": "1.8.1",
         "Authors@R": "c(\n    person(\"Jeroen\", \"Ooms\", ,\"jeroen@berkeley.edu\", role = c(\"aut\", \"cre\"),\n        comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"John MacFarlane\", role = \"cph\", comment = \"Author of cmark\"))",
         "URL": "https://docs.ropensci.org/commonmark/ (docs)\nhttps://github.com/r-lib/commonmark (devel)\nhttps://github.github.com/gfm/ (spec)",
         "BugReports": "https://github.com/r-lib/commonmark/issues",
@@ -373,12 +401,12 @@
         "Language": "en-US",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2022-03-09 14:29:25 UTC; jeroen",
+        "Packaged": "2022-10-14 12:04:12 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  John MacFarlane [cph] (Author of cmark)",
         "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
         "Repository": "RSPM",
-        "Date/Publication": "2022-03-09 15:40:07 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-04-22 20:23:58 UTC; unix"
+        "Date/Publication": "2022-10-14 12:42:33 UTC",
+        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-10-17 12:28:55 UTC; unix"
       }
     },
     "crayon": {
@@ -387,24 +415,24 @@
       "description": {
         "Package": "crayon",
         "Title": "Colored Terminal Output",
-        "Version": "1.5.1",
+        "Version": "1.5.2",
         "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\",\n    role = c(\"aut\", \"cre\")),\n    person(\n    \"Brodie\", \"Gaslam\", email=\"brodie.gaslam@yahoo.com\",\n    role=c(\"ctb\"))\n    )",
-        "Description": "Colored terminal output on terminals that support 'ANSI'\n    color and highlight codes. It also works in 'Emacs' 'ESS'. 'ANSI'\n    color support is automatically detected. Colors and highlighting can\n    be combined and nested. New styles can also be created easily.\n    This package was inspired by the 'chalk' 'JavaScript' project.",
+        "Description": "The crayon package is now superseded. Please use the 'cli' package\n    for new projects.\n    Colored terminal output on terminals that support 'ANSI'\n    color and highlight codes. It also works in 'Emacs' 'ESS'. 'ANSI'\n    color support is automatically detected. Colors and highlighting can\n    be combined and nested. New styles can also be created easily.\n    This package was inspired by the 'chalk' 'JavaScript' project.",
         "License": "MIT + file LICENSE",
         "URL": "https://github.com/r-lib/crayon#readme",
         "BugReports": "https://github.com/r-lib/crayon/issues",
-        "Collate": "'aaa-rstudio-detect.R' 'aaaa-rematch2.R'\n'aab-num-ansi-colors.R' 'aac-num-ansi-colors.R' 'ansi-256.r'\n'ansi-palette.R' 'combine.r' 'string.r' 'utils.r'\n'crayon-package.r' 'disposable.r' 'has_ansi.r' 'has_color.r'\n'link.R' 'styles.r' 'machinery.r' 'parts.r' 'print.r'\n'style-var.r' 'show.r' 'string_operations.r'",
+        "Collate": "'aaa-rstudio-detect.R' 'aaaa-rematch2.R'\n'aab-num-ansi-colors.R' 'aac-num-ansi-colors.R' 'ansi-256.r'\n'ansi-palette.R' 'combine.r' 'string.r' 'utils.r'\n'crayon-package.r' 'disposable.r' 'enc-utils.R' 'has_ansi.r'\n'has_color.r' 'link.R' 'styles.r' 'machinery.r' 'parts.r'\n'print.r' 'style-var.r' 'show.r' 'string_operations.r'",
         "Imports": "grDevices, methods, utils",
         "Suggests": "mockery, rstudioapi, testthat, withr",
         "RoxygenNote": "7.1.2",
         "Encoding": "UTF-8",
         "NeedsCompilation": "no",
-        "Packaged": "2022-03-26 16:18:07 UTC; gaborcsardi",
+        "Packaged": "2022-09-29 06:24:10 UTC; gaborcsardi",
         "Author": "Gábor Csárdi [aut, cre],\n  Brodie Gaslam [ctb]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2022-03-26 17:30:05 UTC",
-        "Built": "R 4.2.0; ; 2022-04-22 20:24:08 UTC; unix"
+        "Date/Publication": "2022-09-29 16:20:24 UTC",
+        "Built": "R 4.2.0; ; 2022-09-30 11:01:12 UTC; unix"
       }
     },
     "crosstalk": {
@@ -439,8 +467,8 @@
       "description": {
         "Package": "digest",
         "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, Kendon Bell,\n Matthew de Queljoe, Ion Suruceanu, Bill Denney, Dirk Schumacher,\n and Winston Chang.",
-        "Version": "0.6.29",
-        "Date": "2021-11-30",
+        "Version": "0.6.30",
+        "Date": "2022-10-17",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
         "Title": "Create Compact Hash Digests of R Objects",
         "Description": "Implementation of a function 'digest()' for the creation of hash\n digests of arbitrary R objects (using the 'md5', 'sha-1', 'sha-256', 'crc32',\n 'xxhash', 'murmurhash', 'spookyhash' and 'blake3' algorithms) permitting easy\n comparison of R language objects, as well as functions such as'hmac()' to\n create hash-based message authentication code. Please note that this package\n is not meant to be deployed for cryptographic purposes for which more\n comprehensive (and widely tested) libraries such as 'OpenSSL' should be\n used.",
@@ -452,11 +480,11 @@
         "Suggests": "tinytest, simplermarkdown",
         "VignetteBuilder": "simplermarkdown",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-11-30 23:41:39 UTC; edd",
+        "Packaged": "2022-10-17 13:37:40 UTC; edd",
         "Repository": "RSPM",
-        "Date/Publication": "2021-12-01 07:40:02 UTC",
+        "Date/Publication": "2022-10-18 08:32:35 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-04-22 20:24:09 UTC; unix"
+        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-10-19 12:37:53 UTC; unix"
       }
     },
     "ellipsis": {
@@ -516,27 +544,27 @@
       "description": {
         "Type": "Package",
         "Package": "fontawesome",
-        "Version": "0.5.0",
+        "Version": "0.4.0",
         "Title": "Easily Work with 'Font Awesome' Icons",
         "Description": "Easily and flexibly insert 'Font Awesome' icons into 'R Markdown'\n    documents and 'Shiny' apps. These icons can be inserted into HTML content\n    through inline 'SVG' tags or 'i' tags. There is also a utility function for\n    exporting 'Font Awesome' icons as 'PNG' images for those situations where\n    raster graphics are needed.",
-        "Authors@R": "c(\n    person(\"Richard\", \"Iannone\", , \"rich@rstudio.com\", c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-3925-190X\")),\n    person(\"Christophe\", \"Dervieux\", , \"cderv@rstudio.com\", role = \"ctb\",\n           comment = c(ORCID = \"0000-0003-4474-2498\")),\n    person(\"Winston\", \"Chang\", , \"winston@rstudio.com\", role = \"ctb\"),\n    person(\"Dave\", \"Gandy\", role = c(\"ctb\", \"cph\"),\n           comment = \"Font-Awesome font\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Authors@R": "c(\n    person(\"Richard\", \"Iannone\", , \"rich@rstudio.com\", c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-3925-190X\")),\n    person(\"Christophe\", \"Dervieux\", , \"cderv@rstudio.com\", role = \"ctb\",\n           comment = c(ORCID = \"0000-0003-4474-2498\")),\n    person(\"Winston\", \"Chang\", , \"winston@rstudio.com\", role = \"ctb\"),\n    person(\"Dave\", \"Gandy\", role = c(\"ctb\", \"cph\"),\n           comment = \"Font-Awesome font\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
         "License": "MIT + file LICENSE",
         "URL": "https://github.com/rstudio/fontawesome,\nhttps://rstudio.github.io/fontawesome/",
         "BugReports": "https://github.com/rstudio/fontawesome/issues",
         "Encoding": "UTF-8",
         "ByteCompile": "true",
-        "RoxygenNote": "7.2.3",
+        "RoxygenNote": "7.2.1",
         "Depends": "R (>= 3.3.0)",
-        "Imports": "rlang (>= 1.0.6), htmltools (>= 0.5.1.1)",
+        "Imports": "rlang (>= 0.4.10), htmltools (>= 0.5.1.1)",
         "Suggests": "covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0),\nrsvg",
         "Config/testthat/edition": "3",
         "NeedsCompilation": "no",
-        "Packaged": "2023-01-25 19:30:38 UTC; rich",
-        "Author": "Richard Iannone [aut, cre] (<https://orcid.org/0000-0003-3925-190X>),\n  Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>),\n  Winston Chang [ctb],\n  Dave Gandy [ctb, cph] (Font-Awesome font),\n  Posit Software, PBC [cph, fnd]",
+        "Packaged": "2022-10-20 03:44:14 UTC; rich",
+        "Author": "Richard Iannone [aut, cre] (<https://orcid.org/0000-0003-3925-190X>),\n  Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>),\n  Winston Chang [ctb],\n  Dave Gandy [ctb, cph] (Font-Awesome font),\n  RStudio [cph, fnd]",
         "Maintainer": "Richard Iannone <rich@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2023-01-25 20:30:02 UTC",
-        "Built": "R 4.2.0; ; 2023-01-26 11:02:39 UTC; unix"
+        "Date/Publication": "2022-10-25 12:35:07 UTC",
+        "Built": "R 4.2.0; ; 2022-10-26 10:58:47 UTC; unix"
       }
     },
     "fs": {
@@ -607,27 +635,27 @@
         "Package": "htmltools",
         "Type": "Package",
         "Title": "Tools for HTML",
-        "Version": "0.5.5",
+        "Version": "0.5.3",
         "Authors@R": "c(\n  person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n  person(\"Carson\", \"Sievert\", role = c(\"aut\", \"cre\"), email = \"carson@rstudio.com\", comment = c(ORCID = \"0000-0002-4958-2844\")),\n  person(\"Barret\", \"Schloerke\", role = \"aut\", email = \"barret@rstudio.com\", comment = c(ORCID = \"0000-0001-9986-114X\")),\n  person(\"Winston\", \"Chang\", role = \"aut\", email = \"winston@rstudio.com\", comment = c(ORCID = \"0000-0002-1576-2126\")),\n  person(\"Yihui\", \"Xie\", role = \"aut\", email = \"yihui@rstudio.com\"),\n  person(\"Jeff\", \"Allen\", role = \"aut\", email = \"jeff@rstudio.com\"),\n  person(family = \"RStudio\", role = \"cph\")\n )",
         "Description": "Tools for HTML generation and output.",
         "Depends": "R (>= 2.14.1)",
-        "Imports": "utils, digest, grDevices, base64enc, rlang (>= 0.4.10),\nfastmap (>= 1.1.0), ellipsis",
+        "Imports": "utils, digest, grDevices, base64enc, rlang (>= 0.4.10),\nfastmap (>= 1.1.0)",
         "Suggests": "markdown, testthat, withr, Cairo, ragg, shiny",
         "Enhances": "knitr",
         "License": "GPL (>= 2)",
-        "URL": "https://github.com/rstudio/htmltools,\nhttps://rstudio.github.io/htmltools/",
+        "URL": "https://github.com/rstudio/htmltools",
         "BugReports": "https://github.com/rstudio/htmltools/issues",
-        "RoxygenNote": "7.2.3",
+        "RoxygenNote": "7.2.0",
         "Encoding": "UTF-8",
-        "Collate": "'colors.R' 'fill.R' 'html_dependency.R' 'html_escape.R'\n'html_print.R' 'images.R' 'known_tags.R' 'selector.R'\n'staticimports.R' 'tag_query.R' 'utils.R' 'tags.R' 'template.R'",
+        "Collate": "'colors.R' 'html_dependency.R' 'html_escape.R' 'html_print.R'\n'images.R' 'known_tags.R' 'selector.R' 'staticimports.R'\n'tag_query.R' 'utils.R' 'tags.R' 'template.R'",
         "Config/Needs/website": "rstudio/quillt, bench",
         "NeedsCompilation": "yes",
-        "Packaged": "2023-03-22 22:59:42 UTC; cpsievert",
+        "Packaged": "2022-07-16 14:14:11 UTC; cpsievert",
         "Author": "Joe Cheng [aut],\n  Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Barret Schloerke [aut] (<https://orcid.org/0000-0001-9986-114X>),\n  Winston Chang [aut] (<https://orcid.org/0000-0002-1576-2126>),\n  Yihui Xie [aut],\n  Jeff Allen [aut],\n  RStudio [cph]",
         "Maintainer": "Carson Sievert <carson@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2023-03-23 09:50:06 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2023-03-24 14:26:04 UTC; unix"
+        "Date/Publication": "2022-07-18 08:40:02 UTC",
+        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-07-19 10:55:30 UTC; unix"
       }
     },
     "htmlwidgets": {
@@ -717,7 +745,7 @@
       "Repository": "https://colorado.posit.co/rspm/biocran-3.16/__linux__/bionic/latest",
       "description": {
         "Package": "jsonlite",
-        "Version": "1.8.4",
+        "Version": "1.8.3",
         "Title": "A Simple and Robust JSON Parser and Generator for R",
         "License": "MIT + file LICENSE",
         "Depends": "methods",
@@ -731,11 +759,11 @@
         "RoxygenNote": "7.2.1",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2022-12-05 23:21:23 UTC; jeroen",
+        "Packaged": "2022-10-18 13:37:44 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Duncan Temple Lang [ctb],\n  Lloyd Hilaiel [cph] (author of bundled libyajl)",
         "Repository": "RSPM",
-        "Date/Publication": "2022-12-06 08:10:02 UTC",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-12-07 11:03:30 UTC; unix"
+        "Date/Publication": "2022-10-21 08:15:07 UTC",
+        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-10-24 11:07:46 UTC; unix"
       }
     },
     "later": {
@@ -828,27 +856,27 @@
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
-        "Version": "1.0.2",
+        "Version": "1.0.3",
         "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "Manage the life cycle of your exported functions with shared\n    conventions, documentation badges, and user-friendly deprecation\n    warnings.",
         "License": "MIT + file LICENSE",
         "URL": "https://lifecycle.r-lib.org/, https://github.com/r-lib/lifecycle",
         "BugReports": "https://github.com/r-lib/lifecycle/issues",
         "Depends": "R (>= 3.4)",
-        "Imports": "glue, rlang (>= 1.0.5)",
-        "Suggests": "covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),\ntibble, tidyverse, tools, vctrs",
+        "Imports": "cli (>= 3.4.0), glue, rlang (>= 1.0.6)",
+        "Suggests": "covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),\ntibble, tidyverse, tools, vctrs, withr",
         "VignetteBuilder": "knitr",
         "Config/testthat/edition": "3",
         "Config/Needs/website": "tidyverse/tidytemplate",
         "Encoding": "UTF-8",
         "RoxygenNote": "7.2.1",
         "NeedsCompilation": "no",
-        "Packaged": "2022-09-01 15:20:36 UTC; lionel",
+        "Packaged": "2022-10-07 08:50:55 UTC; lionel",
         "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\n  RStudio [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2022-09-09 11:42:54 UTC",
-        "Built": "R 4.2.0; ; 2022-09-12 10:57:54 UTC; unix"
+        "Date/Publication": "2022-10-07 09:50:02 UTC",
+        "Built": "R 4.2.0; ; 2022-10-10 11:01:55 UTC; unix"
       }
     },
     "magrittr": {
@@ -1196,8 +1224,8 @@
         "Package": "yaml",
         "Type": "Package",
         "Title": "Methods to Convert R Data to YAML and Back",
-        "Date": "2022-01-24",
-        "Version": "2.3.5",
+        "Date": "2022-10-17",
+        "Version": "2.3.6",
         "Suggests": "RUnit",
         "Author": "Shawn P Garbett [aut], Jeremy Stephens [aut, cre], Kirill Simonov [aut], Yihui Xie [ctb],\n  Zhuoer Dong [ctb], Hadley Wickham [ctb], Jeffrey Horner [ctb], reikoch [ctb],\n  Will Beasley [ctb], Brendan O'Connor [ctb], Gregory R. Warnes [ctb],\n  Michael Quinn [ctb], Zhian N. Kamvar [ctb]",
         "Maintainer": "Shawn Garbett <shawn.garbett@vumc.org>",
@@ -1206,17 +1234,17 @@
         "URL": "https://github.com/vubiostat/r-yaml/",
         "BugReports": "https://github.com/vubiostat/r-yaml/issues",
         "NeedsCompilation": "yes",
-        "Packaged": "2022-02-19 02:41:00 UTC; garbetsp",
+        "Packaged": "2022-10-17 18:13:24 UTC; garbetsp",
         "Repository": "RSPM",
-        "Date/Publication": "2022-02-21 09:20:02 UTC",
+        "Date/Publication": "2022-10-18 08:30:02 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-04-22 20:22:10 UTC; unix"
+        "Built": "R 4.2.0; x86_64-pc-linux-gnu; 2022-10-19 12:37:54 UTC; unix"
       }
     }
   },
   "files": {
     ".Rprofile": {
-      "checksum": "54c154d666238cd5c8c95407233b8836"
+      "checksum": "955a9e9df2021f80bcb23a79a16654c9"
     },
     "app.R": {
       "checksum": "d2be14c875542f81683d37c02a4617ac"
