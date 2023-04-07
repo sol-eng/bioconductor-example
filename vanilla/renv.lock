@@ -3,6 +3,26 @@
     "Version": "4.2.0",
     "Repositories": [
       {
+        "Name": "BioCsoft",
+        "URL": "https://p3m.dev/bioconductor/packages/3.16/bioc"
+      },
+      {
+        "Name": "BioCann",
+        "URL": "https://p3m.dev/bioconductor/packages/3.16/data/annotation"
+      },
+      {
+        "Name": "BioCexp",
+        "URL": "https://p3m.dev/bioconductor/packages/3.16/data/experiment"
+      },
+      {
+        "Name": "BioCworkflows",
+        "URL": "https://p3m.dev/bioconductor/packages/3.16/workflows"
+      },
+      {
+        "Name": "BioCbooks",
+        "URL": "https://p3m.dev/bioconductor/packages/3.16/books"
+      },
+      {
         "Name": "CRAN",
         "URL": "https://p3m.dev/cran/latest"
       },
@@ -36,13 +56,13 @@
     },
     "BiocManager": {
       "Package": "BiocManager",
-      "Version": "1.30.18",
+      "Version": "1.30.20",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "utils"
       ],
-      "Hash": "b1a93bed5debda5775636086fdca017b"
+      "Hash": "a7fca16a50b6ef7771b49d636dd54b57"
     },
     "DT": {
       "Package": "DT",
@@ -172,16 +192,6 @@
       ],
       "Hash": "8f371bac4b09106b66aeff10b85bd933"
     },
-    "askpass": {
-      "Package": "askpass",
-      "Version": "1.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "sys"
-      ],
-      "Hash": "e8a22846fff485f0be3770c2da758713"
-    },
     "base64enc": {
       "Package": "base64enc",
       "Version": "0.1-3",
@@ -252,16 +262,6 @@
         "lazyeval"
       ],
       "Hash": "6aa54f69598c32177e920eb3402e8293"
-    },
-    "curl": {
-      "Package": "curl",
-      "Version": "4.3.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R"
-      ],
-      "Hash": "022c42d49c28e95d69ca60446dbabf88"
     },
     "digest": {
       "Package": "digest",
@@ -480,28 +480,6 @@
       ],
       "Hash": "18e9c28c1d3ca1560ce30658b22ce104"
     },
-    "openssl": {
-      "Package": "openssl",
-      "Version": "2.0.3",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "askpass"
-      ],
-      "Hash": "b9621e75c0652041002a19609fb23c5a"
-    },
-    "packrat": {
-      "Package": "packrat",
-      "Version": "0.8.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "tools",
-        "utils"
-      ],
-      "Hash": "d84055adcb6bb1f4f0ce8c5f235bc328"
-    },
     "promises": {
       "Package": "promises",
       "Version": "1.2.0.1",
@@ -547,31 +525,6 @@
         "utils"
       ],
       "Hash": "4ed1f8336c8d52c3e750adcdc57228a7"
-    },
-    "rsconnect": {
-      "Package": "rsconnect",
-      "Version": "0.8.29",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "curl",
-        "digest",
-        "jsonlite",
-        "openssl",
-        "packrat",
-        "rstudioapi",
-        "tools",
-        "yaml"
-      ],
-      "Hash": "fe178fc15af80952f546aafedf655b36"
-    },
-    "rstudioapi": {
-      "Package": "rstudioapi",
-      "Version": "0.14",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "690bd2acc42a9166ce34845884459320"
     },
     "sass": {
       "Package": "sass",
@@ -630,13 +583,6 @@
         "R"
       ],
       "Hash": "947e4e02a79effa5d512473e10f41797"
-    },
-    "sys": {
-      "Package": "sys",
-      "Version": "3.4",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "b227d13e29222b4574486cfcbde077fa"
     },
     "withr": {
       "Package": "withr",

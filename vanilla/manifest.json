@@ -12,7 +12,7 @@
   "packages": {
     "BiocGenerics": {
       "Source": "BioCsoft",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc",
+      "Repository": "https://p3m.dev/bioconductor/packages/3.16/bioc",
       "description": {
         "Package": "BiocGenerics",
         "Title": "S4 generic functions used in Bioconductor",
@@ -69,7 +69,7 @@
     },
     "DelayedArray": {
       "Source": "BioCsoft",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc",
+      "Repository": "https://p3m.dev/bioconductor/packages/3.16/bioc",
       "description": {
         "Package": "DelayedArray",
         "Title": "A unified framework for working transparently with on-disk and\nin-memory array-like datasets",
@@ -101,7 +101,7 @@
     },
     "IRanges": {
       "Source": "BioCsoft",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc",
+      "Repository": "https://p3m.dev/bioconductor/packages/3.16/bioc",
       "description": {
         "Package": "IRanges",
         "Title": "Foundation of integer range manipulation in Bioconductor",
@@ -166,7 +166,7 @@
     },
     "MatrixGenerics": {
       "Source": "BioCsoft",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc",
+      "Repository": "https://p3m.dev/bioconductor/packages/3.16/bioc",
       "description": {
         "Package": "MatrixGenerics",
         "Title": "S4 Generic Summary Statistic Functions that Operate on\nMatrix-Like Objects",
@@ -250,7 +250,7 @@
     },
     "S4Vectors": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.16/bioc/src/contrib",
+      "Repository": "https://p3m.dev/bioconductor/packages/3.16/bioc",
       "description": {
         "Package": "S4Vectors",
         "Title": "Foundation of vector-like and list-like containers in\nBioconductor",
@@ -1216,7 +1216,7 @@
   },
   "files": {
     ".Rprofile": {
-      "checksum": "80e1c888f9f0a44db0d79c28be2b5c50"
+      "checksum": "134a94fd80845f33b37b3912e505b131"
     },
     "app.R": {
       "checksum": "d2be14c875542f81683d37c02a4617ac"
